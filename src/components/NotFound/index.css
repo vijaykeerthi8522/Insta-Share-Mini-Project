@@ -1,0 +1,57 @@
+.not-found-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.not-found-image {
+  width: 200px;
+  margin-bottom: 20px;
+}
+.not-found-heading {
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+  margin-bottom: 0px;
+  color: #0f0f0f;
+}
+.not-found-desc {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+  text-align: center;
+  color: #262626;
+}
+.not-found-button {
+  cursor: pointer;
+  background: #4094ef;
+  border-radius: 8px;
+  border-width: 0px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  /* identical to box height, or 171% */
+  /* height: 40px; */
+  color: #ffffff;
+  padding: 8px 16px 8px 16px;
+}
+@media screen and (max-width: 468px) {
+  .not-found-heading {
+    font-size: 20px;
+  }
+  .not-found-desc {
+    font-size: 14px;
+  }
+  .not-found-image {
+    width: 150px;
+    margin-bottom: 10px;
+  }
+}

@@ -1,0 +1,129 @@
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.logo {
+  /* left: 14.23%;
+  right: 52.91%;
+  top: 33.62%;
+  bottom: 32.32%; */
+  width: 40%;
+  margin-right: 100px;
+}
+.login-details-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  left: 57.22%;
+  right: 11.11%;
+  top: 27.64%;
+  bottom: 27.64%;
+  background: #fefeff;
+  box-shadow: 0px 8px 40px rgba(7, 7, 7, 0.08);
+  border-radius: 8px;
+  padding: 40px;
+}
+.website-logo {
+  left: 70.21%;
+  right: 24.1%;
+  top: 34.67%;
+  bottom: 62.4%;
+}
+.website-heading {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  /* identical to box height, or 133% */
+
+  text-align: center;
+  color: #262626;
+}
+.form-container {
+  display: flex;
+  flex-direction: column;
+}
+.input-container {
+  /* height: 40px;
+  left: 0%;
+  right: 0%;
+  top: 24px;
+    border-radius: 2px;
+ */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+.label {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  /* identical to box height, or 133% */
+
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+  color: #262626;
+  margin-bottom: 5px;
+}
+.input {
+  width: 100%;
+  height: 40px;
+  padding: 8px 16px 8px 16px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  /* identical to box height, or 171% */
+  border-radius: 6px;
+  color: #262626;
+  outline: none;
+  border: 1px solid #eeeeee;
+}
+.login-button {
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  bottom: 0px;
+  cursor: pointer;
+  background: #4094ef;
+  border-radius: 8px;
+  border-width: 0px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  /* identical to box height, or 171% */
+  height: 40px;
+  color: #ffffff;
+}
+@media screen and (max-width: 480px) {
+  .logo {
+    display: none;
+  }
+  .input {
+    margin-bottom: 20px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .logo {
+    display: none;
+  }
+}
+.error {
+  margin-top: 0px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  /* line-height: 16px; */
+  /* Light / red / 500 */
+
+  color: #ef4444;
+}

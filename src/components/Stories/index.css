@@ -1,0 +1,123 @@
+.stories-list-containers {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  width: 85%;
+}
+.slick-container {
+  width: 90%;
+}
+.slick-prev:before,
+.slick-next:before {
+  color: #989898;
+}
+.slick-item {
+  display: flex;
+  display: inline-block;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+}
+.circles {
+  background-image: linear-gradient(to right, #e20337, #c60188, #7700c3);
+  width: 66px;
+  height: 66px;
+  border-radius: 33px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.story-images {
+  width: 62px;
+  height: 62px;
+  border-radius: 35px;
+  border: 3px solid #e7e3e3;
+  align-self: center;
+}
+.story-name {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  /* identical to box height, or 171% */
+  text-align: center;
+  margin-top: 4px;
+  color: #262626;
+}
+.story-name2 {
+  color: #e7e3e3;
+}
+.loader {
+  display: flex;
+  justify-content: center;
+}
+.failure-view {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.failure-image {
+  width: 200px;
+  margin-bottom: 20px;
+}
+.failure-desc {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+  text-align: center;
+  color: #262626;
+}
+.failure-desc2 {
+  color: #ffffff;
+}
+.failure-button {
+  cursor: pointer;
+  background: #4094ef;
+  border-radius: 8px;
+  border-width: 0px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  /* identical to box height, or 171% */
+  /* height: 40px; */
+  color: #ffffff;
+  padding: 8px 16px 8px 16px;
+}
+@media screen and (max-width: 468px) {
+  .failure-desc {
+    font-size: 14px;
+  }
+  .failure-image {
+    width: 150px;
+    margin-bottom: 10px;
+  }
+  .story-name {
+    font-size: 12px;
+  }
+  .circles {
+    width: 54px;
+    height: 54px;
+    border-radius: 27px;
+  }
+  .story-images {
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+  }
+}

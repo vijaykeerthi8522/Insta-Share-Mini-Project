@@ -1,0 +1,18 @@
+.content {
+  align-self: flex-start;
+  padding-left: 50px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 18px;
+}
+.texts {
+  color: #262626;
+}
+.texts2 {
+  color: #e7e3e3;
+}
+@media screen and (max-width: 767px) {
+  .content {
+    padding-left: 30px;
+  }
+}

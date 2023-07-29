@@ -1,0 +1,137 @@
+.post-items-list1 {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  height: 750px;
+  background-color: #ffffff;
+  border: 1px solid #dbdbdb;
+  border-radius: 4px;
+}
+.post-items-lists3 {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  height: 750px;
+  border-radius: 4px;
+  background-color: #0a0a0a;
+  border: 1px solid #353434;
+}
+.post-profile-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.profile-circle {
+  background-image: linear-gradient(to right, #e20337, #c60188, #7700c3);
+  width: 28px;
+  height: 28px;
+  border-radius: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 15px;
+  margin-right: 8px;
+}
+.post-profile {
+  width: 26px;
+  height: 26px;
+  border-radius: 16px;
+  border: 2px solid #ffffff;
+}
+.profile-name {
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  /* identical to box height, or 129% */
+  display: flex;
+  align-items: center;
+}
+.post-image {
+  width: 100%;
+  height: 500px;
+}
+.post-icons-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 12px;
+}
+.button-icons {
+  outline: none;
+  border-width: 0px;
+  background-color: transparent;
+  cursor: pointer;
+  margin-left: 10px;
+}
+.post-icons {
+  width: 22px;
+  height: 22px;
+  color: #475569;
+}
+.comments-count-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 15px;
+}
+.likes {
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 14px;
+
+  /* identical to box height, or 129% */
+}
+.caption {
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 14px;
+  /* identical to box height, or 129% */
+  margin-top: 0px;
+}
+.comments-container {
+  list-style-type: none;
+  padding-left: 0px;
+  margin-top: 0px;
+}
+.user-comment {
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 14px;
+  /* identical to box height, or 129% */
+  margin-top: 0px;
+}
+.sub {
+  font-weight: 500;
+  margin-right: 3px;
+}
+.created {
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 14px;
+  color: #989898;
+  margin-top: 0px;
+}
+.texts {
+  color: #262626;
+}
+.texts2 {
+  color: #e7e3e3;
+}
+@media screen and (max-width: 340px) {
+  .post-image {
+    height: 80px;
+  }
+  .post-items-container {
+    height: 650px;
+  }
+  .profile-name {
+    font-size: 13px;
+  }
+  .button-icons {
+    outline: none;
+    border-width: 0px;
+    background-color: transparent;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+}
